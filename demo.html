@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset = "utf-8">
+
+ <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0 maximum-scale=1.0" />
+ <title>Julian Ozen</title>
+ 
+ <link rel=”shortcut icon” href=”/favicon.ico”/>
+ <link rel="apple-touch-icon-precomposed" href="iphone.png" />
+ <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ipad.png" />
+ <link rel="apple-touch-icon-precomposed" sizes="114x114" href="iphoneretina.png" />
+ <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ipadretina.png" />
+
+ <script type="text/javascript" src="//use.typekit.net/wzi1oft.js"></script>
+ <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<meta http-equiv="X-UA-Compatible" content="IE=8">
+
+<link href='style.css' rel='stylesheet'/>
+<link rel = "stylesheet" href = "css/bootstrap.css">
+ <link rel = "stylesheet" href = "css/bootstrap-responsive.css">
+ <link rel = "stylesheet" href = "css/custom.css">
+
+
+</head>
+<body>
+<a href="#LogoModal" role="button" data-toggle="modal">
+          demo</a>
+
+
+<div class="modal hide fade" id="LogoModal">
+    <div class="modal-header">
+      <a class="close" data-dismiss="modal">×</a>
+      <h3 class= "title">Logo Design</h3>
+    </div>
+    <div class="modal-body">
+
+     <div id='mySwipe' style='max-width:500px;margin:0 auto' class='swipe'>
+  <div class='swipe-wrap'>
+    <div><b>0</b></div>
+    <div><b>1</b></div>
+    <div><b>2</b></div>
+    <div><b>3</b></div>
+    <div><b>4</b></div>
+    <div><b>5</b></div>
+    <div><b>6</b></div>
+    <div><b>7</b></div>
+    <div><b>8</b></div>
+    <div><b>9</b></div>
+    <div><b>10</b></div>
+    <div><b>11</b></div>
+    <div><b>12</b></div>
+    <div><b>13</b></div>
+    <div><b>14</b></div>
+    <div><b>15</b></div>
+    <div><b>16</b></div>
+    <div><b>17</b></div>
+    <div><b>18</b></div>
+    <div><b>19</b></div>
+    <div><b>20</b></div>
+  </div>
+</div>
+
+
+
+<div style='text-align:center;padding-top:20px;'>
+   <button class="btn" onclick='mySwipe.prev()'>prev</button> 
+  <button class="btn" onclick='mySwipe.next()'>next</button>
+
+</div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src='js/swipe.js'></script>
+<script>
+
+// pure JS
+var elem = document.getElementById('mySwipe');
+window.mySwipe = Swipe(elem, {
+  // startSlide: 4,
+  // auto: 3000,
+  // continuous: true,
+  // disableScroll: true,
+  // stopPropagation: true,
+  // callback: function(index, element) {},
+  // transitionEnd: function(index, element) {}
+});
+
+// with jQuery
+// window.mySwipe = $('#mySwipe').Swipe().data('Swipe');
+
+</script>
+
+<script type="text/javascript">
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-30791115-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script>
+
+<script src = "http://code.jquery.com/jquery-1.9.0.min.js"></script>
+<script src = "js/bootstrap.js"></script>
+<script src = "js/custom.js"></script>
+<!--  <script type="text/javascript">
+ $(window).load(function(){
+  $('#myModal').modal('show');
+ });
+ </script> -->
+</body>
+</html>
